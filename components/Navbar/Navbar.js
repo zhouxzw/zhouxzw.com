@@ -10,16 +10,19 @@ function Navbar(props) {
     setDropdown(!dropdown);
   };
 
-  const [position, setPosition] = useState(0);
+  const [position, setPosition] = useState(130);
   const [show, setShow] = useState(true);
 
   useEffect(() => {
     const scroll = (e) => {
-      if (window.pageYOffset >= position) {
-        setShow(false);
+      if (window.pageYOffset < 130) {
+        setShow(true);
+        setPosition(window.pageYOffset);
+      } else if (window.pageYOffset < position) {
+        setShow(true);
         setPosition(window.pageYOffset);
       } else {
-        setShow(true);
+        setShow(false);
         setPosition(window.pageYOffset);
       }
     };
