@@ -1,0 +1,126 @@
+.image-link-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.center-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.image-holder {
+  display: block;
+  position: relative;
+  border: 1px solid black;
+  width: 100%;
+  height: auto;
+}
+
+.project-socials {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateY(50px);
+  margin-top: 0.5rem;
+  display: flex;
+  align-self: flex-end;
+  height: 40px;
+}
+
+.project-socials > a {
+  width: 5rem;
+  margin-left: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-socials > a:hover {
+  cursor: pointer;
+  color: var(--hard-accent);
+}
+
+.project-socials > a > p {
+  padding-left: 0.5em;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-wrap: break-word;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+  font-size: clamp(0.8rem, 4.8vw, 1.2rem);
+}
+
+.tech-stack {
+  display: flex;
+}
+
+.tech-stack > ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+  gap: 7px;
+}
+
+.tech-stack > ul > li {
+  margin-right: 0.5rem;
+  padding: clamp(0.3rem, 0.4rem, 0.5rem);
+  background-color: var(--soft-accent);
+  color: var(--dark-accent);
+  font-size: clamp(0.8rem, 4.8vw, 1.2rem);
+}
+
+.more-content {
+  align-self: flex-end;
+}
+
+.more-content > b {
+  border-bottom: 1px solid var(--hard-accent);
+}
+
+.more-content:hover {
+  cursor: pointer;
+  color: var(--hard-accent);
+}
+
+.project-title {
+  width: fit-content;
+}
+
+@media screen and (min-width: 992px) {
+  .project-container {
+    width: 70%;
+  }
+
+  .image-holder {
+    width: var(--desktop-project-base);
+  }
+
+  .desktop-width {
+    width: var(--desktop-project-base);
+    align-self: center;
+  }
+
+  .tech-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tech-stack {
+    width: var(--desktop-project-base);
+    justify-content: flex-start;
+  }
+}

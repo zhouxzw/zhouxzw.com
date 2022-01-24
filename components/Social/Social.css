@@ -1,0 +1,34 @@
+.social-container {
+  display: none;
+  position: fixed;
+  width: 10%;
+  left: 0;
+  bottom: 0;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-links > a {
+  padding-bottom: 0.4rem;
+  padding-top: 0.5rem;
+}
+
+.social-links > span {
+  min-height: 16vh;
+  border: 1px solid var(--primary-color);
+}
+
+.github-button:hover,
+.email-button:hover {
+  color: var(--hard-accent);
+}
+
+@media screen and (min-width: 992px) {
+  .social-container {
+    display: inline;
+  }
+}

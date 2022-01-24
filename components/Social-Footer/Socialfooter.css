@@ -1,0 +1,14 @@
+.social-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.social-footer > a {
+  margin: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .social-footer {
+    display: none;
+  }
+}

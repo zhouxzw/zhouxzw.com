@@ -1,0 +1,11 @@
+.main-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: var(--secondary-color);
+}
+
+.main-footer > footer {
+  font-size: clamp(0.5rem, 4vw, 1rem);
+}

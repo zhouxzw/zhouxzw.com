@@ -1,7 +1,19 @@
+:root {
+  --primary-color: #000814;
+  --secondary-color: #fafafa;
+  --soft-accent: #fdca64;
+  --hard-accent: #fbb019;
+  --dark-accent: #452e01;
+  --profile-base: 20vh;
+  --desktop-project-base: 80%;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
+  font-size: 19px;
+  scroll-behavior: smooth;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -9,6 +21,10 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+h1,
+h2 {
+  margin: 0;
 }
 
 * {

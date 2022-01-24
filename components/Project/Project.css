@@ -1,0 +1,15 @@
+.project-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--secondary-color);
+}
+
+.project-container {
+  min-height: 100vh;
+  width: 90%;
+}
+
+.project-container > .intro-title {
+  margin-top: 4rem;
+}
