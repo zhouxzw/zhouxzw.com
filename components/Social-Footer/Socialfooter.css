@@ -1,6 +1,7 @@
 .social-footer {
   display: flex;
   justify-content: center;
+  background-color: var(--secondary-color);
 }
 
 .social-footer > a {

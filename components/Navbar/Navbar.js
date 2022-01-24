@@ -15,7 +15,7 @@ function Navbar(props) {
 
   useEffect(() => {
     const scroll = (e) => {
-      if (window.pageYOffset > position) {
+      if (window.pageYOffset >= position) {
         setShow(false);
         setPosition(window.pageYOffset);
       } else {
