@@ -46,10 +46,14 @@ function Navbar(props) {
 
         <Link href="/#projects" passHref={true}>
           <li onClick={() => toggleDropdown()}>
-            <a>Project</a>
+            <a>Projects</a>
           </li>
         </Link>
-        <li onClick={() => toggleDropdown()}>Resume</li>
+        <li onClick={() => toggleDropdown()}>
+          <a href="/files/resume.pdf" target="_blank" rel="noopener noreferrer">
+            Resume
+          </a>
+        </li>
       </div>
 
       <div className="dropdown-button" onClick={() => toggleDropdown()}>

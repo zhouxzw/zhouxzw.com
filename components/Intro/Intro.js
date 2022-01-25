@@ -27,9 +27,9 @@ function Intro(props) {
           </div>
           <section className="intro-section">
             <p>
-              to my website where I showcase my school/personal projects! I am a
-              recent computer science graduate from University of Calgary with a
-              passion in building web applications.
+              to my website where I showcase my school/personal projects! My
+              name is William Zhou, I am a recent computer science graduate from
+              University of Calgary with a passion in building web applications.
             </p>
           </section>
         </div>

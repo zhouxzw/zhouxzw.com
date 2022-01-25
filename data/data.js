@@ -50,7 +50,7 @@ const menji = {
 };
 
 const makeapp = {
-  title: "makeapp",
+  title: "MAKEAPP",
   desc:
     "iOS programming project tasked with building a mobile app. Our project proposal was to develop" +
     " a social media platform where users could upload their make up routines. Our app has the main functionality where users" +
