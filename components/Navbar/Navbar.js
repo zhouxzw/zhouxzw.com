@@ -56,7 +56,7 @@ function Navbar(props) {
         <li
           onClick={() => {
             toggleDropdown();
-            redirect("/files/Resume.pdf");
+            redirect("/files/resume.pdf");
           }}
         >
           <a>Resume</a>
