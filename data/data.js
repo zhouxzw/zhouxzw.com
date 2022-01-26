@@ -67,7 +67,7 @@ const makeapp = {
   techstack: ["SwiftUI", "Firebase"],
   carousel: [],
   videos: ["https://www.youtube.com/embed/4AqHY7XUyAM"],
-  route: "/projects/makeapp",
+  route: "/projects/MAKEAPP",
 };
 
 const nba = {

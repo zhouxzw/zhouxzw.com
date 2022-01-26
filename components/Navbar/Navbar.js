@@ -50,7 +50,7 @@ function Navbar(props) {
           </li>
         </Link>
         <li onClick={() => toggleDropdown()}>
-          <a href="/files/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/files/Resume.pdf" target="_blank" rel="noopener noreferrer">
             Resume
           </a>
         </li>

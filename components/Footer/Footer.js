@@ -3,7 +3,7 @@ import React from "react";
 function Footer(props) {
   return (
     <div className="main-footer">
-      <footer>© designed and built by zhouxzw</footer>
+      <footer>© Designed &amp; Built by William Zhou</footer>
     </div>
   );
 }
