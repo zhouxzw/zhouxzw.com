@@ -31,6 +31,10 @@ function Navbar(props) {
     return () => window.removeEventListener("scroll", scroll);
   }, [position, show]);
 
+  const redirect = (url) => {
+    window.open(url, "_blank");
+  };
+
   return (
     <nav className={show ? "nav-container active" : "nav-container hide"}>
       <Link href="/" passHref={true}>
@@ -49,10 +53,13 @@ function Navbar(props) {
             <a>Projects</a>
           </li>
         </Link>
-        <li onClick={() => toggleDropdown()}>
-          <a href="/files/Resume.pdf" target="_blank" rel="noopener noreferrer">
-            Resume
-          </a>
+        <li
+          onClick={() => {
+            toggleDropdown();
+            redirect("/files/Resume.pdf");
+          }}
+        >
+          <a>Resume</a>
         </li>
       </div>
 
