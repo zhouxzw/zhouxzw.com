@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import profile from "../../public/images/mof.jpg";
+import profile from "../../public/images/notme.jpg";
 import { BsArrowDownCircle } from "react-icons/bs";
 
 function Intro(props) {
@@ -15,6 +15,8 @@ function Intro(props) {
               src={profile}
               alt="profile-image"
               objectFit="cover"
+              height={600}
+              width={600}
               quality={100}
             ></Image>
           </div>
