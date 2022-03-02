@@ -54,7 +54,7 @@ const makeapp = {
   desc:
     "iOS programming project tasked with building a mobile app. Our project proposal was to develop" +
     " a social media platform where users could upload their make up routines. Our app has the main functionality where users" +
-    " can create a post and upload pictures or videos, showcasing step-by-step their makeup routine.",
+    " can create a post and upload pictures or videos, showcasing step-by-step of their makeup routine.",
   content:
     "The main goal for this project was to develop a platform for people to explore step-by-step makeup routines or to create" +
     " routines to share with other enthusiasts! Users can browse the inspo page for routines and if a user taps on a post, it will bring up" +
