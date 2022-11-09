@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import profile from "../../public/images/notme.jpg";
+import profile from "../../public/images/not.jpg";
 import { BsArrowDownCircle } from "react-icons/bs";
 
 function Intro(props) {
